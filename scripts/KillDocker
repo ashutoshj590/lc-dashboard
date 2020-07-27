@@ -1,0 +1,2 @@
+docker kill lc-dashboard
+docker rm lc-dashboard

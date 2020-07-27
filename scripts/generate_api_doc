@@ -1,0 +1,1 @@
+sudo apidoc  -f ".js" -i ../LC-Dashboard/ -o public/apidoc/ -e node_modules/

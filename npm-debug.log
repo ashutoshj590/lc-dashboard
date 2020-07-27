@@ -1,0 +1,245 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install', '-g' ]
+2 info using npm@3.5.2
+3 info using node@v4.2.6
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData .
+8 silly fetchDirectoryPackageData .
+9 silly install normalizeTree
+10 silly loadCurrentTree Finishing
+11 silly loadIdealTree Starting
+12 silly install loadIdealTree
+13 silly cloneCurrentTree Starting
+14 silly install cloneCurrentTreeToIdealTree
+15 silly cloneCurrentTree Finishing
+16 silly loadShrinkwrap Starting
+17 silly install loadShrinkwrap
+18 silly loadShrinkwrap Finishing
+19 silly loadAllDepsIntoIdealTree Starting
+20 silly install loadAllDepsIntoIdealTree
+21 silly resolveWithNewModule LC-Dashboard@1.0.0 checking installable status
+22 silly cache add args [ '.', null ]
+23 verbose cache add spec .
+24 silly cache add parsed spec Result {
+24 silly cache add   raw: '.',
+24 silly cache add   scope: null,
+24 silly cache add   name: null,
+24 silly cache add   rawSpec: '.',
+24 silly cache add   spec: '/home/dell/officeP/lc-dashboard',
+24 silly cache add   type: 'directory' }
+25 verbose addLocalDirectory /home/dell/.npm/LC-Dashboard/1.0.0/package.tgz not in flight; packing
+26 verbose makeDirectory /home/dell/.npm creation not in flight; initializing
+27 silly makeDirectory /home/dell/.npm uid: 1000 gid: 1000
+28 info lifecycle LC-Dashboard@1.0.0~prepublish: LC-Dashboard@1.0.0
+29 silly lifecycle LC-Dashboard@1.0.0~prepublish: no script for prepublish, continuing
+30 verbose tar pack [ '/home/dell/.npm/LC-Dashboard/1.0.0/package.tgz',
+30 verbose tar pack   '/home/dell/officeP/lc-dashboard' ]
+31 verbose tarball /home/dell/.npm/LC-Dashboard/1.0.0/package.tgz
+32 verbose folder /home/dell/officeP/lc-dashboard
+33 verbose addLocalTarball adding from inside cache /home/dell/.npm/LC-Dashboard/1.0.0/package.tgz
+34 silly cache afterAdd LC-Dashboard@1.0.0
+35 verbose afterAdd /home/dell/.npm/LC-Dashboard/1.0.0/package/package.json not in flight; writing
+36 verbose afterAdd /home/dell/.npm/LC-Dashboard/1.0.0/package/package.json written
+37 silly fetchNamedPackageData aws-sdk
+38 silly mapToRegistry name aws-sdk
+39 silly mapToRegistry using default registry
+40 silly mapToRegistry registry https://registry.npmjs.org/
+41 silly mapToRegistry uri https://registry.npmjs.org/aws-sdk
+42 silly fetchNamedPackageData bcrypt
+43 silly mapToRegistry name bcrypt
+44 silly mapToRegistry using default registry
+45 silly mapToRegistry registry https://registry.npmjs.org/
+46 silly mapToRegistry uri https://registry.npmjs.org/bcrypt
+47 silly fetchNamedPackageData body-parser
+48 silly mapToRegistry name body-parser
+49 silly mapToRegistry using default registry
+50 silly mapToRegistry registry https://registry.npmjs.org/
+51 silly mapToRegistry uri https://registry.npmjs.org/body-parser
+52 silly fetchNamedPackageData cluster
+53 silly mapToRegistry name cluster
+54 silly mapToRegistry using default registry
+55 silly mapToRegistry registry https://registry.npmjs.org/
+56 silly mapToRegistry uri https://registry.npmjs.org/cluster
+57 silly fetchNamedPackageData connect-redis
+58 silly mapToRegistry name connect-redis
+59 silly mapToRegistry using default registry
+60 silly mapToRegistry registry https://registry.npmjs.org/
+61 silly mapToRegistry uri https://registry.npmjs.org/connect-redis
+62 silly fetchNamedPackageData cookie-parser
+63 silly mapToRegistry name cookie-parser
+64 silly mapToRegistry using default registry
+65 silly mapToRegistry registry https://registry.npmjs.org/
+66 silly mapToRegistry uri https://registry.npmjs.org/cookie-parser
+67 silly fetchNamedPackageData express
+68 silly mapToRegistry name express
+69 silly mapToRegistry using default registry
+70 silly mapToRegistry registry https://registry.npmjs.org/
+71 silly mapToRegistry uri https://registry.npmjs.org/express
+72 silly fetchNamedPackageData express-handlebars
+73 silly mapToRegistry name express-handlebars
+74 silly mapToRegistry using default registry
+75 silly mapToRegistry registry https://registry.npmjs.org/
+76 silly mapToRegistry uri https://registry.npmjs.org/express-handlebars
+77 silly fetchNamedPackageData express-session
+78 silly mapToRegistry name express-session
+79 silly mapToRegistry using default registry
+80 silly mapToRegistry registry https://registry.npmjs.org/
+81 silly mapToRegistry uri https://registry.npmjs.org/express-session
+82 silly fetchNamedPackageData fb
+83 silly mapToRegistry name fb
+84 silly mapToRegistry using default registry
+85 silly mapToRegistry registry https://registry.npmjs.org/
+86 silly mapToRegistry uri https://registry.npmjs.org/fb
+87 silly fetchNamedPackageData fs
+88 silly mapToRegistry name fs
+89 silly mapToRegistry using default registry
+90 silly mapToRegistry registry https://registry.npmjs.org/
+91 silly mapToRegistry uri https://registry.npmjs.org/fs
+92 silly fetchNamedPackageData ini
+93 silly mapToRegistry name ini
+94 silly mapToRegistry using default registry
+95 silly mapToRegistry registry https://registry.npmjs.org/
+96 silly mapToRegistry uri https://registry.npmjs.org/ini
+97 silly fetchNamedPackageData mongoose
+98 silly mapToRegistry name mongoose
+99 silly mapToRegistry using default registry
+100 silly mapToRegistry registry https://registry.npmjs.org/
+101 silly mapToRegistry uri https://registry.npmjs.org/mongoose
+102 silly fetchNamedPackageData mongoose-paginate
+103 silly mapToRegistry name mongoose-paginate
+104 silly mapToRegistry using default registry
+105 silly mapToRegistry registry https://registry.npmjs.org/
+106 silly mapToRegistry uri https://registry.npmjs.org/mongoose-paginate
+107 silly fetchNamedPackageData multer
+108 silly mapToRegistry name multer
+109 silly mapToRegistry using default registry
+110 silly mapToRegistry registry https://registry.npmjs.org/
+111 silly mapToRegistry uri https://registry.npmjs.org/multer
+112 silly fetchNamedPackageData path
+113 silly mapToRegistry name path
+114 silly mapToRegistry using default registry
+115 silly mapToRegistry registry https://registry.npmjs.org/
+116 silly mapToRegistry uri https://registry.npmjs.org/path
+117 silly fetchNamedPackageData q
+118 silly mapToRegistry name q
+119 silly mapToRegistry using default registry
+120 silly mapToRegistry registry https://registry.npmjs.org/
+121 silly mapToRegistry uri https://registry.npmjs.org/q
+122 silly fetchNamedPackageData redis
+123 silly mapToRegistry name redis
+124 silly mapToRegistry using default registry
+125 silly mapToRegistry registry https://registry.npmjs.org/
+126 silly mapToRegistry uri https://registry.npmjs.org/redis
+127 silly fetchNamedPackageData request
+128 silly mapToRegistry name request
+129 silly mapToRegistry using default registry
+130 silly mapToRegistry registry https://registry.npmjs.org/
+131 silly mapToRegistry uri https://registry.npmjs.org/request
+132 silly fetchNamedPackageData shortid
+133 silly mapToRegistry name shortid
+134 silly mapToRegistry using default registry
+135 silly mapToRegistry registry https://registry.npmjs.org/
+136 silly mapToRegistry uri https://registry.npmjs.org/shortid
+137 verbose request uri https://registry.npmjs.org/aws-sdk
+138 verbose request no auth needed
+139 info attempt registry request try #1 at 7:05:52 PM
+140 verbose request id 0f49a86aacb7b25e
+141 http request GET https://registry.npmjs.org/aws-sdk
+142 verbose request uri https://registry.npmjs.org/bcrypt
+143 verbose request no auth needed
+144 info attempt registry request try #1 at 7:05:52 PM
+145 http request GET https://registry.npmjs.org/bcrypt
+146 verbose request uri https://registry.npmjs.org/body-parser
+147 verbose request no auth needed
+148 info attempt registry request try #1 at 7:05:52 PM
+149 http request GET https://registry.npmjs.org/body-parser
+150 verbose request uri https://registry.npmjs.org/cluster
+151 verbose request no auth needed
+152 info attempt registry request try #1 at 7:05:52 PM
+153 http request GET https://registry.npmjs.org/cluster
+154 verbose request uri https://registry.npmjs.org/connect-redis
+155 verbose request no auth needed
+156 info attempt registry request try #1 at 7:05:52 PM
+157 http request GET https://registry.npmjs.org/connect-redis
+158 verbose request uri https://registry.npmjs.org/cookie-parser
+159 verbose request no auth needed
+160 info attempt registry request try #1 at 7:05:52 PM
+161 http request GET https://registry.npmjs.org/cookie-parser
+162 verbose request uri https://registry.npmjs.org/express
+163 verbose request no auth needed
+164 info attempt registry request try #1 at 7:05:52 PM
+165 http request GET https://registry.npmjs.org/express
+166 verbose request uri https://registry.npmjs.org/express-handlebars
+167 verbose request no auth needed
+168 info attempt registry request try #1 at 7:05:52 PM
+169 http request GET https://registry.npmjs.org/express-handlebars
+170 verbose request uri https://registry.npmjs.org/express-session
+171 verbose request no auth needed
+172 info attempt registry request try #1 at 7:05:52 PM
+173 http request GET https://registry.npmjs.org/express-session
+174 verbose request uri https://registry.npmjs.org/fb
+175 verbose request no auth needed
+176 info attempt registry request try #1 at 7:05:52 PM
+177 http request GET https://registry.npmjs.org/fb
+178 verbose request uri https://registry.npmjs.org/fs
+179 verbose request no auth needed
+180 info attempt registry request try #1 at 7:05:52 PM
+181 http request GET https://registry.npmjs.org/fs
+182 verbose request uri https://registry.npmjs.org/ini
+183 verbose request no auth needed
+184 info attempt registry request try #1 at 7:05:52 PM
+185 http request GET https://registry.npmjs.org/ini
+186 verbose request uri https://registry.npmjs.org/mongoose
+187 verbose request no auth needed
+188 info attempt registry request try #1 at 7:05:52 PM
+189 http request GET https://registry.npmjs.org/mongoose
+190 verbose request uri https://registry.npmjs.org/mongoose-paginate
+191 verbose request no auth needed
+192 info attempt registry request try #1 at 7:05:52 PM
+193 http request GET https://registry.npmjs.org/mongoose-paginate
+194 verbose request uri https://registry.npmjs.org/multer
+195 verbose request no auth needed
+196 info attempt registry request try #1 at 7:05:52 PM
+197 http request GET https://registry.npmjs.org/multer
+198 verbose request uri https://registry.npmjs.org/path
+199 verbose request no auth needed
+200 info attempt registry request try #1 at 7:05:52 PM
+201 http request GET https://registry.npmjs.org/path
+202 verbose request uri https://registry.npmjs.org/q
+203 verbose request no auth needed
+204 info attempt registry request try #1 at 7:05:52 PM
+205 http request GET https://registry.npmjs.org/q
+206 verbose request uri https://registry.npmjs.org/redis
+207 verbose request no auth needed
+208 info attempt registry request try #1 at 7:05:52 PM
+209 http request GET https://registry.npmjs.org/redis
+210 verbose request uri https://registry.npmjs.org/request
+211 verbose request no auth needed
+212 info attempt registry request try #1 at 7:05:52 PM
+213 http request GET https://registry.npmjs.org/request
+214 verbose request uri https://registry.npmjs.org/shortid
+215 verbose request no auth needed
+216 info attempt registry request try #1 at 7:05:52 PM
+217 http request GET https://registry.npmjs.org/shortid
+218 verbose stack Error: error:0906D06C:PEM routines:PEM_read_bio:no start line
+218 verbose stack     at Error (native)
+218 verbose stack     at Object.createSecureContext (_tls_common.js:87:19)
+218 verbose stack     at Object.exports.connect (_tls_wrap.js:971:21)
+218 verbose stack     at Agent.createConnection (https.js:73:22)
+218 verbose stack     at Agent.createSocket (_http_agent.js:172:16)
+218 verbose stack     at Agent.addRequest (_http_agent.js:141:23)
+218 verbose stack     at new ClientRequest (_http_client.js:132:16)
+218 verbose stack     at Object.exports.request (http.js:31:10)
+218 verbose stack     at Object.exports.request (https.js:167:15)
+218 verbose stack     at Request.start (/usr/share/npm/node_modules/request/request.js:793:30)
+219 verbose cwd /home/dell/officeP/lc-dashboard
+220 error Linux 4.4.0-21-generic
+221 error argv "/usr/bin/nodejs" "/usr/bin/npm" "install" "-g"
+222 error node v4.2.6
+223 error npm  v3.5.2
+224 error error:0906D06C:PEM routines:PEM_read_bio:no start line
+225 error If you need help, you may report this error at:
+225 error     <https://github.com/npm/npm/issues>
+226 verbose exit [ 1, true ]

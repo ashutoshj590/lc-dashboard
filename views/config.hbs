@@ -1,0 +1,69 @@
+{{!-- Our first template with tokens --}}
+<h1>
+    {{ page_header }}
+    <small>{{ page_desc }}</small>
+</h1>
+<br />
+<div class="row">
+    <div class="col-md-12 col-lg-12 col-sm-12">
+        <div class="box box-primary">
+          <form data-toggle="validator" role="form">
+            <div class="box-header with-border">
+                <h3 class="box-title">App configure</h3>
+                <div class="box-tools pull-right">
+                    <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                    </button>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-box-tool dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                            <i class="fa fa-wrench"></i></button>
+                    </div>
+                    <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+                </div>
+            </div>
+
+            <!-- /.box-header -->
+            <!-- form start -->
+            <div id="new-config-form">
+                <div class="box-body">
+                <form>
+                    <input type="hidden" value="{{ app_id }}" name="app_id" id="app-id" data-app-id = "{{ app_id }}">
+
+                    <div class="form-group">
+                        <label for="server-name">NEW SERVER</label>
+                        <div class="radio col">
+                            <label><input type="radio" name="status" id="server-name" value="prod">Production</label>
+                        </div>
+                        <div class="radio col">
+                            <label><input type="radio" name="status" value="dev">Developmet</label>
+                        </div>
+
+                        <label for="user-name">USER ON LOADING</label>
+                        <div class="checkbox col">
+                            <label><input type="checkbox" name="user_onboarding" id="user-name" value="facebook">Facebook</label>
+                        </div>
+                        <div class="checkbox col">
+                            <label><input type="checkbox" name="user_onboarding" value="email">Email</label>
+                        </div>
+
+                        <label for="type-name">APP TYPE</label>
+                        <div class="radio col">
+                            <label><input type="radio" name="type" id="type-name" value="form">Form</label>
+                        </div>
+                        <div class="radio col">
+                            <label><input type="radio" name="type" value="comments">Comments</label>
+                        </div>
+                    </div>
+                </form>
+                 
+                </div>
+                <!-- /.box-body -->
+
+                <div class="box-footer">
+                    <button class="btn btn-primary pull-right" id="submit-config-button">Submit</button>
+                </div>
+            </div>
+          </form>
+        </div>
+    </div>
+</div>
+<script src="public/js/config.js"></script>

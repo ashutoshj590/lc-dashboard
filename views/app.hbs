@@ -1,0 +1,66 @@
+{{!-- Our first template with tokens --}}
+<h1>
+    {{ page_header }}
+    <small>{{ page_desc }}</small>
+</h1>
+<br />
+<div class="row">
+    <div class="col-md-12 col-lg-12 col-sm-12">
+        <div class="box box-primary">
+          <form data-toggle="validator" role="form">
+            <div class="box-header with-border">
+                <h3 class="box-title">Add a New App</h3>
+                <div class="box-tools pull-right">
+                    <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                    </button>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-box-tool dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                            <i class="fa fa-wrench"></i></button>
+                    </div>
+                    <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+                </div>
+            </div>
+
+            <!-- /.box-header -->
+            <!-- form start -->
+            <div id="new-app-form">
+                <div class="box-body">
+                    <div class="form-group">
+                        <label for="app-name">App Name</label>
+                        <input type="text" class="form-control" id="app-name" placeholder="App Name" name="app_name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="playstore-url">Apple Store URL</label>
+                        <input type="text" class="form-control" id="playstore-url" placeholder="App Name" name="playstore_url" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="applestore-url">Play Store URL</label>
+                        <input type="text" class="form-control" id="applestore-url" placeholder="App Name" name="applestore_url" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="imageLoader">App Icon/Image</label>
+                        <input type="file" id="imageLoader" class="imageLoader" name="imageLoader"/>
+                        <canvas class="imageCanvas"></canvas>
+                        <p class="help-block">Upload a valid jpeg/png only, 200px * 200px</p>
+                        <input type="hidden" name="base64Image" class="base-64-image">
+                    </div>
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" name="makeDefaultApp"> Make this as default app.
+                        </label>
+                    </div>
+                </div>
+                <!-- /.box-body -->
+
+                <div class="box-footer">
+                    <button class="btn btn-primary pull-right" id="add-app-button">Submit</button>
+                </div>
+            </div>
+          </form>
+        </div>
+    </div>
+</div>
+<script src="public/js/apppage.js"></script>

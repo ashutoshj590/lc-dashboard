@@ -1,0 +1,2 @@
+ db.posts.update({},{$set : {"app_id":ObjectId("58f0a7f793953b2b782ab49d")}},{upsert:false,multi:true})
+ db.users.update({},{$set : {"app_id":ObjectId("58f0a7f793953b2b782ab49d")}},{upsert:false,multi:true})
